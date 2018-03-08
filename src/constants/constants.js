@@ -4,10 +4,10 @@ export const DEGREE_SYMBOL = 'F';
 // Codes retrieved from https://developer.yahoo.com/weather/documentation.html
 // Some liberties taken with categorization
 export const WEATHER_ALERTS = [
-  { name: 'RAIN', type: 'WEATHER', codes: [1, 2, 9, 11, 12, 40], text: 'Rain is forecasted for this day' },
-  { name: 'THUNDERSTORMS', type: 'WEATHER', codes: [3, 4, 37, 38, 39, 45, 47], text: 'Thunderstorms are forecasted for this day' },
-  { name: 'SNOW', type: 'WEATHER', codes: [5, 13, 14, 15, 16, 41, 42, 43, 46], text: 'Snow is forecasted for this day' },
-  { name: 'ICE', type: 'WEATHER', codes: [6, 7, 8, 10, 17, 18, 35], text: 'Ice is forecasted for this day' },
+  { name: 'RAIN', type: 'WEATHER', codes: ['1', '2', '9', '11', '12', '40'], text: 'Rain is forecasted for this day' },
+  { name: 'THUNDERSTORMS', type: 'WEATHER', codes: ['3', '4', '37', '38', '39', '45', '47'], text: 'Thunderstorms are forecasted for this day' },
+  { name: 'SNOW', type: 'WEATHER', codes: ['5', '13', '14', '15', '16', '41', '42', '43', '46'], text: 'Snow is forecasted for this day' },
+  { name: 'ICE', type: 'WEATHER', codes: ['6', '7', '8', '10', '17', '18', '35'], text: 'Ice is forecasted for this day' },
   { name: 'HEAT', type: 'TEMPERATURE', threshold: 85, text: 'High heat is forecasted for this day' },
   { name: 'COLD', type: 'TEMPERATURE', threshold: 32, text: 'Freezing temperatures are forecasted for this day' }
 ];
